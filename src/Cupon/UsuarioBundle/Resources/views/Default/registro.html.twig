@@ -1,0 +1,13 @@
+{% extends '::frontend.html.twig' %}
+{% block id 'usuario' %}
+{% block title %}Regístrate gratis como usuario{% endblock %}
+{% block article %}
+    <h1>{{ block('title') }}</h1>
+    <form action="{{ path('usuario_registro') }}" method="post" {{
+        form_enctype(formulario) }}>
+        {{ form_widget(formulario) }}
+        <input class="boton" type="submit" value="Registrarme" />
+    </form>
+{% endblock %}
+{% block aside %}
+{% endblock %}

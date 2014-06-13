@@ -1,0 +1,35 @@
+UsuarioBundle:
+    resource: "@UsuarioBundle/Resources/config/routing.yml"
+    prefix: /usuario
+
+tienda:
+    resource: "@TiendaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ciudad:
+    resource: "@CiudadBundle/Resources/config/routing.yml"
+    prefix:   /
+    
+pagina_estatica:
+    pattern: /sitio/{pagina}/
+    defaults: { _controller: OfertaBundle:Sitio:estatica }
+    
+_portada:
+    pattern: /
+    defaults: { _controller: OfertaBundle:Default:portada }
+    
+portada:
+    pattern: /{ciudad}
+    defaults: { _controller: OfertaBundle:Default:portada,ciudad:null }
+    
+_portadas:
+    pattern: /{ciudad}/
+    defaults: { _controller: OfertaBundle:Default:portada,ciudad:null }
+    
+ciudad_cambiar:
+    pattern: /ciudad/cambiar-a-{ciudad}
+    defaults: { _controller: CiudadBundle:Default:cambiar }
+    
+oferta:
+    pattern: /{ciudad}/ofertas/{slug}
+    defaults: { _controller: OfertaBundle:Default:oferta }

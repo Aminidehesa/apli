@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default/includes/minioferta.html.twig</file>
+            <file>file:/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default/includes/oferta.html.twig</file>
+            <file>file:/var/www/Cupon/src/Cupon/UsuarioBundle/Listener/LoginListener.php</file>
+            <file>file:/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default/portada.html.twig</file>
+            <file>file:/var/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default/detalle.html.twig</file>
+            <file>file:/var/www/Cupon/src/Cupon/UsuarioBundle/Resources/views/Default/cajaLogin.html.twig</file>
+            <file>file:/var/www/Cupon/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Event/InteractiveLoginEvent.php</file>
+            <file>file:/var/www/Cupon/src/Cupon/CiudadBundle/Resources/views/Default/recientes.html.twig</file>
+            <file>file:/var/www/Cupon/app/config/security.yml</file>
+            <file>file:/var/www/Cupon/src/Cupon/UsuarioBundle/Controller/DefaultController.php</file>
+            <file>file:/var/www/Cupon/src/Cupon/UsuarioBundle/Resources/config/routing.yml</file>
+            <file>file:/var/www/Cupon/src/Cupon/UsuarioBundle/Resources/config/services.yml</file>
+            <file>file:/var/www/Cupon/app/Resources/views/frontend.html.twig</file>
+            <file>file:/var/www/Cupon/src/Cupon/CiudadBundle/Controller/DefaultController.php</file>
+            <file>file:/var/www/Cupon/src/Cupon/UsuarioBundle/Resources/views/Default/login.html.twig</file>
+            <file>file:/var/www/Cupon/app/config/config.yml</file>
+            <file>file:/var/www/Cupon/src/Cupon/UsuarioBundle/Entity/Usuario.php</file>
+            <file>file:/var/www/Cupon/app/config/routing.yml</file>
+            <file>file:/var/www/Cupon/src/Cupon/OfertaBundle/Twig/Extension/CuponExtension.php</file>
+            <file>file:/var/www/Cupon/src/Cupon/OfertaBundle/Entity/OfertaRepository.php</file>
+            <file>file:/var/www/Cupon/src/Cupon/CiudadBundle/Entity/CiudadRepository.php</file>
+        </group>
+    </open-files>
+</project-private>
